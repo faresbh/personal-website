@@ -55,125 +55,76 @@
       "company": "medialis.net GmbH",
       "position": "Mobile Developer",
       "website": "https://www.medialis.net",
-      "startDate": "2017-08-16",
-      "endDate": "",
-      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
-      "highlights": []
-    },
-    {
-      "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
-      "startDate": "2016-05-01",
-      "endDate": "",
-      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
-      "highlights": []
-    },
-    {
-      "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
-      "website": "https://www.eem.pt",
-      "startDate": "2015-03-01",
-      "endDate": "",
-      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "startDate": "2016-01-01",
+      "endDate": "2016-11-30",
+      "summary": "Developing professional native iOS and Android applications for the company’s customers.",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Madeira",
+      "institution": "ESPRIT University",
       "area": "Computer Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "studyType": "Master",
+      "startDate": "2013-09-15",
+      "endDate": "2016-07-15",
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
         "Operating systems and computers architectures",
-        "Requirements Engineering"
+        "Mobile Engineering"
+      ]
+    },
+    {
+      "institution": "INSAT University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2010-09-15",
+      "endDate": "2013-07-15",
+      "courses": [
+        "Advanced Mathematics and Physics",
+        "Computer Science Fundamentals",
       ]
     }
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "iOS",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": ["Swift", "Objective-C", "TDD", "Clean Architecture"]
     },
     {
       "name": "Continuous Integration",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": ["Jenkins", "Circle CI", "Fastlane"]
     },
     {
-      "name": "Scripting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Containers",
+      "name": "Android",
       "level": "Intermediate",
-      "keywords": ["DevOps"]
+      "keywords": ["Java"]
     },
     {
-      "name": "Cloud",
-      "level": "Basic",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Troubleshooting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Infrastructure as Code",
-      "level": "Basic",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Object Oriented Programming",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Design Patterns",
+      "name": "Project Management",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "REST API",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Unit Testing",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": ["Scrum"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent speaker"
+      "fluency": "Fluent"
     },
     {
-      "language": "Portuguese",
-      "fluency": "Native speaker"
+      "language": "Arabic",
+      "fluency": "Native"
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
     }
   ],
   "interests": [
