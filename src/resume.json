@@ -91,7 +91,7 @@
     {
       "name": "iOS",
       "level": "Advanced",
-      "keywords": ["Swift", "Objective-C", "TDD", "Clean Architecture"]
+      "keywords": ["Swift", "Objective-C", "TDD", "Clean Architecture", "Unit Testing", "MVVM"]
     },
     {
       "name": "Continuous Integration",
