@@ -2,6 +2,7 @@ import React from "react";
 import TimelineItem from "./TimelineItem";
 import Resume from "../../resume.json";
 
+/*eslint no-extend-native: "error"*/
 Array.prototype.contains = function(v) {
   for (var i = 0; i < this.length; i++) {
     if (this[i] === v) return true;
@@ -9,6 +10,7 @@ Array.prototype.contains = function(v) {
   return false;
 };
 
+/*eslint no-extend-native: ["error", { "exceptions": ["Array"] }]*/
 Array.prototype.unique = function() {
   var arr = [];
   for (var i = 0; i < this.length; i++) {
