@@ -75,8 +75,8 @@
       "company": "mb2i  Tunisie",
       "position": "Mobile Developer",
       "website": "https://www.mb2i.fr",
-      "startDate": "2015-06-01",
-      "endDate": "2015-09-30",
+      "startDate": "2013-02-01",
+      "endDate": "2013-07-01",
       "summary": "Development of a connector application to archive documents according to classification rules configured in automatic and semi-automatic modes. \nDeployment of the Alfresco ECM system and customize it depending on the company needs.",
       "highlights": []
     }
@@ -109,24 +109,79 @@
   ],
   "skills": [
     {
-      "name": "iOS",
+      "name": "Swift",
       "level": "Advanced",
-      "keywords": ["Swift", "Objective-C", "TDD", "Clean Architecture", "Unit Testing", "MVVM"]
+      "keywords": ["Mobile Development"]
     },
     {
-      "name": "Continuous Integration",
+      "name": "Objective-C",
       "level": "Advanced",
-      "keywords": ["Jenkins", "Circle CI", "Fastlane"]
+      "keywords": ["Mobile Development"]
+    },
+    {
+      "name": "Objective-C",
+      "level": "Advanced",
+      "keywords": ["Mobile Development"]
+    },
+    {
+      "name": "MVVM",
+      "level": "Advanced",
+      "keywords": ["Mobile Development"]
+    },
+    {
+      "name": "Clean Architecture",
+      "level": "Advanced",
+      "keywords": ["Mobile Development"]
+    },
+    {
+      "name": "TDD",
+      "level": "Intermediate",
+      "keywords": ["Mobile Development"]
+    },
+    {
+      "name": "MVVM",
+      "level": "Advanced",
+      "keywords": ["Mobile Development"]
+    },
+    {
+      "name": "Unit Testing",
+      "level": "Intermediate",
+      "keywords": ["Mobile Development"]
     },
     {
       "name": "Android",
       "level": "Intermediate",
-      "keywords": ["Java"]
+      "keywords": ["Mobile Development"]
     },
     {
-      "name": "Project Management",
+      "name": "Java",
       "level": "Intermediate",
-      "keywords": ["Scrum"]
+      "keywords": ["Software Development"]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": ["Software Development"]
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "Advanced",
+      "keywords": ["Software Development"]
+    },
+    {
+      "name": "Version Control",
+      "level": "Advanced",
+      "keywords": ["Software Development"]
+    },
+    {
+      "name": "Scrum",
+      "level": "Advanced",
+      "keywords": ["Software Development"]
+    },
+    {
+      "name": "Project Planning & Analysis",
+      "level": "Intermediate",
+      "keywords": ["Software Development"]
     }
   ],
   "languages": [

@@ -6,8 +6,8 @@ function Footer() {
       <div className="content has-text-centered has-text-white">
         <p>
           Built at <i className="fas fa-moon"></i> by{" "}
-          <a href="https://github.com/jcoelho93" className="has-text-white">
-            <strong>José Coelho</strong>
+          <a href="https://github.com/faresbh" className="has-text-white">
+            <strong>Fares Benhamouda</strong>
           </a>
         </p>
         <p>
