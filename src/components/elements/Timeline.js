@@ -2,6 +2,23 @@ import React from "react";
 import TimelineItem from "./TimelineItem";
 import Resume from "../../resume.json";
 
+Array.prototype.contains = function(v) {
+  for (var i = 0; i < this.length; i++) {
+    if (this[i] === v) return true;
+  }
+  return false;
+};
+
+Array.prototype.unique = function() {
+  var arr = [];
+  for (var i = 0; i < this.length; i++) {
+    if (!arr.contains(this[i])) {
+      arr.push(this[i]);
+    }
+  }
+  return arr;
+}
+
 function Timeline() {
   return (
     <div className="timeline is-centered">
@@ -14,10 +31,13 @@ function Timeline() {
         <div className="timeline-marker is-success"></div>
         <div className="timeline-content"></div>
       </div>
-      {Resume.work
+      {
+
+        Resume.work
         .map(item => {
           return new Date(item.startDate).getFullYear();
         })
+        .unique()
         .map((year, i) => {
           let content = [];
           content.push(
@@ -31,12 +51,13 @@ function Timeline() {
               .map((item, j) => {
                 return (
                   <TimelineItem
-                    key={j}
+                    key={item}
                     date={new Date(item.startDate).toLocaleString("en-UK", {
                       month: "long",
                       year: "numeric"
                     })}
                     company={item.company}
+                    website={item.website}
                     summary={item.summary}
                   />
                 );

@@ -60,6 +60,26 @@
       "summary": "Developing professional native iOS and Android applications for the company’s customers.",
       "highlights": []
     }
+    ,
+    {
+      "company": "Elory",
+      "position": "Mobile Developer",
+      "website": "https://www.elory.nl",
+      "startDate": "2015-06-01",
+      "endDate": "2015-09-30",
+      "summary": "Developing and designing the startup based product “Progress” which is an gamified iOS application for online learning.",
+      "highlights": []
+    }
+    ,
+    {
+      "company": "mb2i  Tunisie",
+      "position": "Mobile Developer",
+      "website": "https://www.mb2i.fr",
+      "startDate": "2015-06-01",
+      "endDate": "2015-09-30",
+      "summary": "Development of a connector application to archive documents according to classification rules configured in automatic and semi-automatic modes. \nDeployment of the Alfresco ECM system and customize it depending on the company needs.",
+      "highlights": []
+    }
   ],
   "education": [
     {
