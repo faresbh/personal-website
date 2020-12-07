@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App(props) {
   return (
@@ -6,26 +7,6 @@ function App(props) {
       <div className="card-header">
         <a href={props.appStoreURL} target="blank">
           <p className="card-header-title">{props.name}</p>
-        </a>
-        <a
-          href={props.privacyPolicy}
-          target="blank"
-          className="card-header-icon"
-          aria-label="Privacy Policy"
-        >
-          <span className="icon">
-            <i className="fas fa-2x fa-user-secret"></i>
-          </span>
-        </a>
-        <a
-          href={props.termsAndConditions}
-          target="blank"
-          className="card-header-icon"
-          aria-label="Terms and Conditions"
-        >
-          <span className="icon">
-            <i className="fas fa-2x fa-file-contract"></i>
-          </span>
         </a>
       </div>
       <div className="card-image">
@@ -38,9 +19,13 @@ function App(props) {
         <div className="content">
           <p>{props.description}</p>
         </div>
+        <div>
         <a href={props.appStoreURL} target="blank">
           App Store Link
         </a>
+        </div>
+        <li><Link to={'/privacypolicy'} className="nav-link">Privacy Policy</Link></li>
+        <li><Link to={'/termsandconditions'} className="nav-link">Terms And Conditions</Link></li>
       </div>
     </div>
   );

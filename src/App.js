@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import Header from "./components/structure/Header";
-import Content from "./components/structure/Content";
-import Footer from "./components/structure/Footer";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import PrivacyPolicy from './PrivacyPolicy';
+import TermsAndConditions from './TermsAndConditions';
 import Resume from "./resume.json";
 
 class App extends Component {
@@ -15,13 +16,18 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header />
-        <Content />
-        <Footer />
-      </div>
+    <Router>
+        <div>
+          <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/PrivacyPolicy' component={PrivacyPolicy} />
+              <Route path='/TermsAndConditions' component={TermsAndConditions} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
+
 
 export default App;
